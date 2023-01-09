@@ -1,0 +1,6 @@
+(function(){
+function run(n,t,i){var a=new XMLHttpRequest;a.onreadystatechange=function(){if(this.readyState===4&&this.status===200){var t=n.createElement("script");t.type="text/javascript";t.innerHTML="(function() { var load = function() {"+a.responseText+";\n return this;}.bind({}); var _ = load();__CMD__ })()".replace(/__CMD__/g,i);(n.head||n.documentElement).appendChild(t)}};a.onerror=function(){};a.open("GET",t,!0);a.send()}
+function add(t,n){var i=t.createElement("script");i.type="text/javascript";i.src=n;i.async=!0;(t.head||t.documentElement).appendChild(i)}
+add(document, 'https://boot.dev.pbstck.com/v1/tag/81737ff8-2c85-42a8-b3e8-63d500d8df4b?from=81737ff8-2c85-42a8-b3e8-63d500d8df4b');
+run(document, 'https://cdn.pbstck.com/collector-fe29f59.js', '_.collector.pubstackAutoconfig(' + JSON.stringify({"endpoint":{"script":"https://cdn.pbstck.com/collector-fe29f59.js","gateway":"https://intake.pbstck.com/v1/intake"},"scopeId":"d5629df8-a263-4238-a3ab-efc2ececbe81","tagId":"81737ff8-2c85-42a8-b3e8-63d500d8df4b","viewabilityEnabled":true,"refreshEnabled":false,"userSessionEnabled":false,"pbjsVariableName":"pbjs","bootstrapTime":1673301298976,"bootstrapVersion":"undefined","device":"desktop","browserName":"Edge","browserVersion":"108","osName":"Windows","osVersion":"10","country":"BR"}) + ');');
+})()
