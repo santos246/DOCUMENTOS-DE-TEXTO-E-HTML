@@ -1,0 +1,61 @@
+﻿<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><title>✅VÍDEOS</title>
+<link rel="sortcut icon" href="https://www.eccoair.com.br/wp-content/uploads/2021/12/BR-uai-258x258.png" type="image/gif" />
+<link href="CSS🔴.css" rel="stylesheet">
+<link rel="stylesheet" href="CSS🔴.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="santos.12164@hotmail.com">
+<meta name="description" content="NOME🔴">
+<meta name="keywords" content="NOME🔴, NOME🔴, NOME🔴">
+</head><body><style>
+img {
+    max-width: 100%;
+}
+</style>
+<!----------------------------------------------------------->
+<b id='piscando' style="transition-duration:0.5s">
+TEXTO PISCANDO
+</b><script>
+var teste = 0;
+ setInterval(piscar, 500);
+ function piscar(){
+if(teste<1){
+teste++;
+document.getElementById('piscando').style.opacity = '1';
+} else{
+teste = 0; 
+document.getElementById('piscando').style.opacity = '0';
+}};
+</script>
+<!----------------------------------------------------------->
+<!----------------------------------------------------------->
+<!----------------------------------------------------------->
+O código de destino, isto é, o ponto de chegada ao ser clicado é:
+<p><li><a name="ancora🔴">ancora🔴</a></li></p>
+E o código do comando "ir para" é:
+<p><li><a href="#ancora🔴">ir para ancora🔴</a></li></p>
+Você pode criar vários pontos, como:
+<p><li><a name="ancora2🔴"> e <a href="#ancora2🔴">ir para ancora2🔴</a></li></p>
+Para fazer o usuário "Ir para o topo" não é necessário uma âncora como acima, tem um código especial para isto: 
+<p><li><a href="#top">Ir para o topo</a></li></p>
+Para ir à outra página:
+<p><li><a href="nomedapagina🔴/1 - Copia.html#ancora🔴">ir para ancora🔴</a></li></p>
+Utilizando uma imagem como âncora: 
+<p><li><a href="#ancora🔴"><img src="imagem.jpg🔴"></a></li></p>
+<!----------------------------------------------------------->
+<li><a href="
+LINK🔴
+" target="_blank">
+OUTRAABA🔴
+</a></li>
+
+
+<img src="/logo.png" width="100">
+
+
+
+
+
+</body></html>
